@@ -1,0 +1,119 @@
+
+body{
+ margin: 2rem;
+ background-color: white;
+ color: black;
+}
+
+h1, h2{ 
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1{
+    font-size: 5rem;
+    line-height: 0.0001rem;
+    color: #00AEFF
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 0.0001rem;
+    color: #00AEFF
+}
+
+img{
+    width: 100%;
+  
+}
+.title{
+    color: #00AEFF;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        font-size: 6rem;
+    margin-top:15rem;
+    margin-bottom: 1rem;
+}
+
+.intro-container{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#08218c
+}
+
+.disruption-gallery, .decision-gallery{
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+ .disruption-gallery img, .decision-gallery img, .footing-container img{
+    width: 100%; 
+    height: auto;
+    
+ }
+
+
+ .caption, .image-number{
+font-family: arial;
+ }
+
+ 
+
+ .caption{
+    color:#08218c;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+ }
+ 
+ .footing-container{
+    margin-top:5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+
+ }
+
+.line-1{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:.8rem;
+    color:#08218c;
+    font-weight: bold
+}
+.line-2{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1rem;
+    color:#08218c;
+}
+.iframe-container{
+    display: flex;
+
+}
+iframe{
+    width: 90vw;
+    height: 75vh;
+}
+
+.conclusion-container{
+    display: flex;
+    margin-top: 3rem;
+}    
+
+.conclusion-container img{
+    width:70%;
+}
